@@ -55,7 +55,7 @@ Ce dépôt contient les codes des TDs et des TPs de l'UV IA01 de l'Université d
 
 ## 📔 - Auteurs et contributeurs
 
--  **Th3o-D** - Tous les TD et TP - [Th3o-D](https://github.com/Th3o-D/)
+-  **4igle** - Tous les TD et TP - [4igle](https://github.com/4igle/)
 -   **sacha-sz** - Collaboration sur les TP - [sacha-sz](https://github.com/sacha-sz/)
 
 ## 📑 - Références
