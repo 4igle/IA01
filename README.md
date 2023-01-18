@@ -49,8 +49,8 @@ Ce dépôt contient les codes des TDs et des TPs de l'UV IA01 de l'Université d
 
 ## 📔 - Auteurs et contributeurs
 
--  **Th3o-D** - Tous les TD et TP - [Th3o-D](https://github.com/Th3o-D/)
--   **sacha-sz** - Collaboration sur les TP - [sacha-sz](https://github.com/sacha-sz/)
+-  **[Th3o-D](https://github.com/Th3o-D/)** - Tous les TD et TP
+-   **[sacha-sz](https://github.com/sacha-sz/)** - Collaboration sur les TP
 
 ## 📑 - Références
 - **Lien moodle vers le cours** : [UTC-IA01](https://moodle.utc.fr/enrol/index.php?id=303)
