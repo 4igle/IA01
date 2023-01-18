@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-4="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#aime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#aime">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#est_aime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#appartient_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#appartient_a"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#est_aime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#est_aime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#est_de_taille -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#est_de_taille"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#owner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#owner"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#prete_a_aider -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#prete_a_aider"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Cadet_de_Gascogne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Cadet_de_Gascogne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Noble"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Mondaine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Compte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Compte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Noble"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Mondaine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Mondaine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Nez -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Nez"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Noble -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Noble"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Regiment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Regiment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Soldat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Soldat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Taille -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Taille"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Christian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Christian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Cadet_de_Gascogne"/>
+        <aime rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Roxanne"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Cyrano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Cyrano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Cadet_de_Gascogne"/>
+        <aime rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Roxanne"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#De_Guiche -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#De_Guiche">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Compte"/>
+        <aime rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Roxanne"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Enorme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Enorme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Taille"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Nez_de_Cyrano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Nez_de_Cyrano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Nez"/>
+        <est_de_taille rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Enorme"/>
+        <owner rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Cyrano"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Regiment_de_Guiche -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Regiment_de_Guiche">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Regiment"/>
+        <owner rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#De_Guiche"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Roxanne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Roxanne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Mondaine"/>
+        <aime rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Christian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Soldat_Regiment_de_Guiche -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Soldat_Regiment_de_Guiche">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Soldat"/>
+        <owner rdf:resource="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Regiment_de_Guiche"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Christian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Cyrano"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#De_Guiche"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeanpierre/ontologies/2022/11/untitled-ontology-4#Roxanne"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -101,15 +101,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 ; ALGO GLOUTON
 
 (defun glouton (laby depart arrivee)

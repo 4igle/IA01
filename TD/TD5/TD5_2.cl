@@ -49,7 +49,7 @@
 
 
 (defun chainage_arriere (but bdf bdr &optional (i 0))
-  (if (member but bdf)
+  (if (appartient but bdf)
     (progn
       (format t "~V@t-> ~s vrai car dans la bdf : ~s obtenu~&" i but but)
       T
