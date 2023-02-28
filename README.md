@@ -5,7 +5,6 @@ Ce dépôt contient les codes des TDs et des TPs de l'UV IA01 de l'Université d
 
 . \
 ├── 📄 [LICENSE](./LICENSE) \
-├── 📄 [out.txt](./out.txt) \
 ├── 📄 [README.md](./README.md) \
 ├── 📁 [TD](./TD) \
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD1](./TD/TD1) \
